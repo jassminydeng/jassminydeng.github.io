@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yuting (Jassmin) Deng</title>
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <meta name="description" content="Yuting (Jassmin) Deng - PhD Student at Columbia Business School">
+    <meta name="author" content="Yuting Deng" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      /* Reset */
+      html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins,
+      kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
+      center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+      caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+      details, embed, figure, figcaption, footer, header, hgroup, menu,
+      nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0; padding: 0; border: 0; font-size: 100%;
+        font: inherit; vertical-align: baseline;
+      }
+      article, aside, details, figcaption, figure, footer, header, hgroup,
+      menu, nav, section { display: block; }
+      body { line-height: 1; }
+      ol, ul { list-style: none; }
+      *, *:before, *:after { box-sizing: border-box; }
+
+      /* Base */
+      html { font-size: 100%; }
+      body {
+        background: #fff;
+        font: 17px/1.6 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #333;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 980px;
+        padding: 0 20px;
+        width: 100%;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #222;
+        font-weight: bold;
+        line-height: 1.7;
+        margin: 1em 0 15px;
+        padding: 0;
+      }
+      @media screen and (max-width: 640px) {
+        h1, h2, h3, h4, h5, h6 { line-height: 1.4; }
+      }
+      h1 { font-size: 24px; }
+      .entry h1 { margin-top: 1.5em; }
+      h1 a { color: inherit; }
+      h2 { font-size: 20px; }
+      h3 { font-size: 17px; }
+      h4 { font-size: 16px; color: #666; }
+      p { margin: 15px 0; }
+      a { color: #4183C4; text-decoration: none; cursor: pointer; }
+      a:hover, a:active { color: #4183C4; }
+      ul, ol { margin: 15px 0; padding-left: 30px; }
+      ul { list-style-type: disc; }
+      ol { list-style-type: decimal; }
+      ol ul, ul ol, ul ul, ol ol { margin: 0; }
+      ul ul, ol ul { list-style-type: circle; }
+      em, i { font-style: italic; }
+      strong, b { font-weight: 600; }
+      img { max-width: 100%; }
+
+      /* Top accent bar */
+      .top-bar {
+        height: 4px;
+        background: linear-gradient(90deg, #3d6ea5, #5a9bd5, #2a5080);
+      }
+
+      /* Header */
+      .wrapper-masthead {
+        margin-bottom: 20px;
+        background: #fff;
+        border-bottom: 1px solid #eee;
+      }
+      .masthead {
+        padding: 20px 0;
+      }
+      .masthead:after { content: " "; display: table; clear: both; }
+
+      .site-info { float: left; }
+      .site-name {
+        margin: 0;
+        color: #333;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        letter-spacing: 0.5px;
+      }
+      .site-name a { color: #333; }
+      .site-name a:hover { color: #4183C4; }
+      .chinese-name {
+        font-size: 22px;
+        font-weight: 400;
+        color: #666;
+        margin-left: 10px;
+      }
+
+      @media screen and (max-width: 640px) {
+        .site-info { float: none; display: block; margin: 0 auto; text-align: center; }
+        .masthead nav { float: none; display: block; margin-top: 12px; font-size: 16px; text-align: center; }
+      }
+
+      .masthead nav {
+        float: right;
+        margin-top: 20px;
+        font-size: 18px;
+      }
+      .masthead nav a {
+        margin-left: 20px;
+        color: #333;
+        text-align: right;
+        font-weight: 400;
+      }
+
+      /* Icon styles */
+      .icon-link {
+        display: inline-block;
+        margin-left: 16px;
+        color: #888;
+        vertical-align: middle;
+        transition: color 0.2s;
+      }
+      .icon-link:hover { color: #3d6ea5; }
+      .icon-link svg {
+        width: 21px;
+        height: 21px;
+        fill: currentColor;
+        vertical-align: middle;
+      }
+
+      /* Content */
+      #main { margin-top: 20px; }
+      .page { margin-bottom: 50px; }
+      .page .entry { margin-top: 10px; }
+      .entry ul { line-height: 1.6; }
+      .entry li { margin-bottom: 14px; }
+
+      /* Paper links */
+      .entry li a {
+        font-size: 15px;
+        padding: 1px 4px;
+        border-radius: 2px;
+      }
+      .entry li a:hover {
+        background: #e8f0f8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="top-bar"></div>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <div class="site-info">
+            <h1 class="site-name">
+              <a href="/">Yuting (Jassmin) Deng <span class="chinese-name">邓雨婷</span></a>
+            </h1>
+          </div>
+
+          <nav>
+            <a href="mailto:yd2721@gsb.columbia.edu" class="icon-link" title="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/yuting-d-602316187" class="icon-link" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://scholar.google.com/citations?user=YOUR_ID" class="icon-link" title="Google Scholar">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+            </a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="page">
+        <div class="entry">
+
+          <!-- About Me -->
+          <h1 id="about">About Me</h1>
+          <div style="display: flex; gap: 25px; align-items: flex-start;">
+            <div style="flex: 1;">
+              <p>I am a Ph.D. student in Quantitative Marketing at <a href="https://www8.gsb.columbia.edu/">Columbia Business School</a>.</p>
+              <p>I build digital twins to better simulate human behavior.</p>
+              <p>My research has two goals:</p>
+              <ol>
+                <li>using theories of the human mind to build better simulations of humans</li>
+                <li>using these simulations to better understand humans, such as judgment, decision-making, and creativity</li>
+              </ol>
+            </div>
+            <img style="border-radius: 6px; object-fit: cover; flex-shrink: 0; margin-right: -10px; margin-top: 15px;" src="IMG_3288.jpg" width="220" height="220" alt="Yuting Deng" />
+          </div>
+
+          <h3>Background</h3>
+          <p>My background is unusually interdisciplinary. Before pursuing a PhD at a business school, I worked on research projects across human-computer interaction, computational biology, cognitive psychology, and computational social science at Stanford, CMU, and UChicago. Although these fields may seem quite different, they share a common theme for me: understanding humanity through different lenses. I became particularly interested in how consumers think and react in the real world, which eventually brought me to Columbia Business School.</p>
+
+          <!-- Research -->
+          <h1 id="research">Research</h1>
+
+          <h3>Ongoing Projects</h3>
+          <ul>
+            <li>
+              <strong>Building Better Twins Using AI-Moderated Interviews</strong> <br>
+              <strong>Yuting Deng</strong>, Jingxuan Liu, and Olivier Toubia <br>
+            </li>
+            <li>
+              <strong>Examining and Addressing Barriers to Diversity in LLM-Generated Ideas</strong> <br>
+              <strong>Yuting Deng</strong>, Melanie Brucks, and Olivier Toubia <br>
+              Working paper, 2026 <br>
+              <a href="https://arxiv.org/abs/2602.20408">paper</a>
+            </li>
+          </ul>
+
+          <h3>Conference Proceedings</h3>
+          <ul>
+            <li>
+              <strong>Breaking Out of the Ivory Tower: A Large-Scale Analysis of Patent Citations to HCI Research</strong> <br>
+              Hancheng Cao, Yinglong Lu, <strong>Yuting Deng</strong>, Daniel McFarland, and Michael S. Bernstein <br>
+              CHI 2023 &nbsp;<span style="background-color: #d9534f; color: #fff; padding: 2px 6px; border-radius: 3px; font-size: 14px; font-weight: bold;">Best Paper Award</span><br>
+              <a href="https://doi.org/10.1145/3544548.3581316">paper</a>
+            </li>
+            <li>
+              <strong>Learning from Home: A Mixed-Methods Analysis of Live Streaming Based Remote Education Experience in Chinese Colleges During the COVID-19 Pandemic</strong> <br>
+              Zhilong Chen, Hancheng Cao, <strong>Yuting Deng</strong>, Xuan Gao, Jinghua Piao, Fengli Xu, Yu Zhang, and Yong Li <br>
+              CHI 2021 <br>
+              <a href="https://doi.org/10.1145/3411764.3445428">paper</a>
+            </li>
+          </ul>
+
+          <h3>Journal Articles</h3>
+          <ul>
+            <li>
+              <strong>Discovering Type I Cis-AT Polyketides Through Computational Mass Spectrometry and Genome Mining with Seq2PKS</strong> <br>
+              Donghui Yan, Muqing Zhou, Abhinav Adduri, ..., <strong>Yuting Deng</strong>, ..., and Hosein Mohimani <br>
+              Nature Communications, 2024 <br>
+              <a href="https://www.nature.com/articles/s41467-024-49587-1">paper</a>
+            </li>
+            <li>
+              <strong>Differences in the Functional Brain Architecture of Sustained Attention and Working Memory in Youth and Adults</strong> <br>
+              Omid Kardan, Andrew J. Stier, Carlos Cardenas-Iniguez, ..., <strong>Yuting Deng</strong>, ..., and Monica D. Rosenberg <br>
+              PLOS Biology, 2022 <br>
+              <a href="https://doi.org/10.1371/journal.pbio.3001938">paper</a>
+            </li>
+          </ul>
+
+          <!-- Education -->
+          <h1 id="education">Education</h1>
+          <ul>
+            <li>Ph.D., Quantitative Marketing, Columbia Business School (2023 &ndash; present)</li>
+            <li>M.S., Computational Data Science, School of Computer Science, Carnegie Mellon University (2021 &ndash; 2023)
+              <ul>
+                <li>Research visiting student at Stanford University (2022 &ndash; 2023)</li>
+              </ul>
+            </li>
+            <li>B.S., Computational and Applied Math, The University of Chicago (2018 &ndash; 2021)</li>
+          </ul>
+
+          <!-- Awards -->
+          <h1 id="awards">Awards</h1>
+          <ul>
+            <li>ISMS Marketing Science Doctoral Consortium Fellow, 2026</li>
+            <li>The Eugene Lang Entrepreneurship PhD Fellowship, Columbia Business School, 2025</li>
+            <li>ACM SIGCHI Best Paper Award (Top 1%), CHI 2023</li>
+            <li>Global Dreamer Talent (19/3000+ selected), Alibaba Group, 2019</li>
+            <li>Dean's List, The University of Chicago, 2018 &ndash; 2020</li>
+          </ul>
+
+          <!-- Connect -->
+          <h1 id="connect">Connect</h1>
+          <p>I always enjoy learning from diverse perspectives. Please feel free to email me if you'd like to discuss any ideas!</p>
+          <p><a href="mailto:yd2721@gsb.columbia.edu" style="font-family: 'SF Mono', 'Menlo', 'Consolas', monospace; font-size: 15px; color: #4183C4; background: #f6f8fa; padding: 6px 14px; border-radius: 6px; border: 1px solid #e1e4e8;">yd2721@gsb.columbia.edu</a></p>
+
+        </div>
+      </article>
+    </div>
+
+  </body>
+</html>
