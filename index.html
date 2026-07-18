@@ -178,6 +178,39 @@
       .entry li a:hover {
         background: #e8f0f8;
       }
+
+      /* Expandable paper summary */
+      .paper-summary {
+        margin-top: 4px;
+      }
+      .paper-summary summary {
+        display: inline-block;
+        cursor: pointer;
+        color: #4183C4;
+        font-size: 15px;
+        padding: 1px 4px;
+        border-radius: 2px;
+        user-select: none;
+      }
+      .paper-summary summary:hover {
+        background: #e8f0f8;
+      }
+      .paper-summary summary::before {
+        content: "\25B8\00A0";
+        font-size: 13px;
+      }
+      .paper-summary[open] summary::before {
+        content: "\25BE\00A0";
+      }
+      .paper-summary p {
+        margin: 8px 0 4px;
+        padding: 10px 14px;
+        background: #f6f8fa;
+        border-left: 3px solid #5a9bd5;
+        border-radius: 3px;
+        font-size: 15px;
+        color: #444;
+      }
     </style>
   </head>
 
@@ -235,8 +268,12 @@
           <h3>Ongoing Projects</h3>
           <ul>
             <li>
-              <strong>Building Better Twins Using AI-Moderated Interviews</strong> <br>
+              <strong>AI-Moderated Interviews for Market Research and Digital Twins Calibration</strong> <br>
               <strong>Yuting Deng</strong>, Jingxuan Liu, and Olivier Toubia <br>
+              <details class="paper-summary">
+                <summary>summary</summary>
+                <p>In a pre-registered study (N=317) with industry partners, we compare AI-moderated, human-moderated, and static audio interviews for market research. AI moderation matches human moderation in depth, covers more themes, and, holding budget constant, recovers significantly more customer needs than human moderation or static interviews &mdash; though participants sound more emotionally engaged with a live human. Digital twins built from AI-moderated interviews predict consumers' held-out responses to six real-world marketing stimuli better than demographics-based personas, but the additional richness does not translate into better quantitative predictions than static interviews; prediction errors are connected to differences in thinking styles between twins and humans and to out-of-distribution questions.</p>
+              </details>
             </li>
             <li>
               <strong>Examining and Addressing Barriers to Diversity in LLM-Generated Ideas</strong> <br>
@@ -293,6 +330,7 @@
           <!-- Awards -->
           <h1 id="awards">Awards</h1>
           <ul>
+            <li>Deming Center Doctoral Fellowship, Columbia Business School, 2026</li>
             <li>ISMS Marketing Science Doctoral Consortium Fellow, 2026</li>
             <li>The Eugene Lang Entrepreneurship PhD Fellowship, Columbia Business School, 2025</li>
             <li>ACM SIGCHI Best Paper Award (Top 1%), CHI 2023</li>
