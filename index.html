@@ -156,6 +156,12 @@
       .entry ul { line-height: 1.6; }
       .entry li { margin-bottom: 14px; }
 
+      /* Education */
+      .edu-list { margin: 15px 0; }
+      .edu-item { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+      .edu-logo { width: 48px; height: 48px; object-fit: contain; flex-shrink: 0; }
+      .edu-sub { font-size: 15px; color: #666; margin-top: 2px; }
+
       /* Mobile responsive */
       @media screen and (max-width: 640px) {
         .about-section {
@@ -255,6 +261,7 @@
                 <li>using theories of the human mind to build better simulations of humans</li>
                 <li>using these simulations to better understand humans, such as judgment, decision-making, and creativity</li>
               </ol>
+              <p>I am also a member of the <a href="https://business.columbia.edu/ai-in-business/labs/digital-twins-lab">Digital Twins Lab</a> at Columbia Business School, where I help organize seminars and talks. If you work on simulating humans/societies, whether in industry or academia, please feel free to reach out!</p>
             </div>
             <img style="border-radius: 6px; object-fit: cover; flex-shrink: 0; margin-top: 15px;" src="IMG_3288.jpg" width="220" height="220" alt="Yuting Deng" />
           </div>
@@ -337,15 +344,22 @@
 
           <!-- Education -->
           <h1 id="education">Education</h1>
-          <ul>
-            <li>Ph.D., Quantitative Marketing, Columbia Business School (2023 &ndash; present)</li>
-            <li>M.S., Computational Data Science, School of Computer Science, Carnegie Mellon University (2021 &ndash; 2023)
-              <ul>
-                <li>Research visiting student at Stanford University (2022 &ndash; 2023)</li>
-              </ul>
-            </li>
-            <li>B.S., Computational and Applied Math, The University of Chicago (2018 &ndash; 2021)</li>
-          </ul>
+          <div class="edu-list">
+            <div class="edu-item">
+              <img class="edu-logo" src="logos/cbs.svg" alt="Columbia Business School" />
+              <div>Ph.D., Quantitative Marketing, Columbia Business School (2023 &ndash; present)</div>
+            </div>
+            <div class="edu-item">
+              <img class="edu-logo" src="logos/cmu.svg" alt="Carnegie Mellon University" />
+              <div>M.S., Computational Data Science, School of Computer Science, Carnegie Mellon University (2021 &ndash; 2023)
+                <div class="edu-sub">Research visiting student at Stanford University (2022 &ndash; 2023)</div>
+              </div>
+            </div>
+            <div class="edu-item">
+              <img class="edu-logo" src="logos/uchicago.svg" alt="The University of Chicago" />
+              <div>B.S., Computational and Applied Math, The University of Chicago (2018 &ndash; 2021)</div>
+            </div>
+          </div>
 
           <!-- Awards -->
           <h1 id="awards">Awards</h1>
